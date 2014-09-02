@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
+  get 'stats/speakers'
+
   resources :speakers
+
+  root 'stats#speakers'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
