@@ -1,0 +1,27 @@
+<h1>Listing speakers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Talks</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @speakers.each do |speaker| %>
+      <tr>
+        <td><%= speaker.name %></td>
+        <td><%= speaker.talks %></td>
+        <td><%= link_to 'Show', speaker %></td>
+        <td><%= link_to 'Edit', edit_speaker_path(speaker) %></td>
+        <td><%= link_to 'Destroy', speaker, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Speaker', new_speaker_path %>
