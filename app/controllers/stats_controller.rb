@@ -1,6 +1,12 @@
 class StatsController < ApplicationController
   def speakers
-    speakers = Speaker.all
-    @speaker_stats = speakers.to_json
+    speakers_data = Speaker.all
+    @speakers = Array.new
+    @speakers_count = Array.new
+
+    speakers_data.each do |s|
+      @speakers << s.name
+      @speakers_count << s.talks
+    end
   end
 end

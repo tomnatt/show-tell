@@ -1,3 +1,32 @@
-<h1>Look what you have to do</h1>
-<pre>
-<p><%= @speaker_stats %>
+<h1>Speakers and the number of talks they have given</h1>
+
+<canvas id="cvs" width="450" height="400">[No canvas support]</canvas>
+
+<script>
+    $(document).ready(function () {
+
+        var radar2 = new RGraph.Radar({
+            id: 'cvs',
+            data: <%= @speakers_count.to_s %>,
+            options: {
+                labels: <%= raw(@speakers.to_s) %>,
+                tooltips: <%= raw(@speakers.to_s) %>,
+                clearto: 'white',
+                background: {
+                    circles: {
+                        poly: true,
+                        spacing: 30
+                    }
+                },
+                colors: ['rgba(255,0,0,0.25)','rgba(255,255,0,0.25)'],
+                axes: {
+                    color: 'transparent'
+                },
+                highlights: true,
+                strokestyle: ['red','black']
+            }
+        }).on('beforedraw', function (obj) {
+            RGraph.clear(obj.canvas, 'white');
+        }).grow()
+    })
+</script>
