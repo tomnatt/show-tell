@@ -5,18 +5,26 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Speaker.create(name: 'Tom N', talks: '21')
-Speaker.create(name: 'Phil', talks: '10')
-Speaker.create(name: 'Liam', talks: '11')
-Speaker.create(name: 'Kelv', talks: '11')
-Speaker.create(name: 'Dan', talks: '11')
-Speaker.create(name: 'Miles', talks: '8')
-Speaker.create(name: 'Charlotte', talks: '10')
-Speaker.create(name: 'Iris', talks: '8')
-Speaker.create(name: 'Ross', talks: '9')
-Speaker.create(name: 'Tom T', talks: '7')
-Speaker.create(name: 'Rich', talks: '7')
-Speaker.create(name: 'Chris', talks: '4')
-Speaker.create(name: 'Justin', talks: '3')
-Speaker.create(name: 'Paul', talks: '3')
-Speaker.create(name: 'Rhian', talks: '2')
+
+speaker_list = [
+  'Tom N',
+  'Phil',
+  'Liam',
+  'Kelv',
+  'Dan',
+  'Miles',
+  'Charlotte',
+  'Iris',
+  'Ross',
+  'Tom T',
+  'Rich',
+  'Chris',
+  'Justin',
+  'Paul',
+  'Rhian',
+  'Hanna'
+]
+
+speaker_list.each do |name|
+  Speaker.create(name: name)
+end
