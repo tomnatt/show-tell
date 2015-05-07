@@ -1,25 +1,9 @@
-<%= form_for(@speaker) do |f| %>
-  <% if @speaker.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@speaker.errors.count, "error") %> prohibited this speaker from being saved:</h2>
-
-      <ul>
-      <% @speaker.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
+<%= semantic_form_for @speaker do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :name %>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :talks %><br>
-    <%= f.number_field :talks %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :input %>
+  <% end %>
 <% end %>

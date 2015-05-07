@@ -1,5 +1,8 @@
 <%= semantic_form_for @talk do |f| %>
   <%= f.inputs do %>
+    <%= f.input :title %>
+    <%= f.input :date %>
+    <%= f.input :slides %>
   <% end %>
 
   <%= f.actions do %>
