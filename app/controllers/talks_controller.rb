@@ -41,7 +41,7 @@ class TalksController < ApplicationController
   # PATCH/PUT /talks/1.json
   def update
     respond_to do |format|
-      if @talk.update(talk_params)
+      if update_talk
         format.html { redirect_to @talk, notice: 'Talk was successfully updated.' }
         format.json { render :show, status: :ok, location: @talk }
       else
@@ -62,13 +62,24 @@ class TalksController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_talk
-      @talk = Talk.find(params[:id])
-    end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def talk_params
-      params.require(:talk).permit(:title, :date, :slides)
+  def update_talk
+    speakers = []
+    params[:talk][:speaker_ids].each do |speaker_id|
+      speakers << Speaker.find(speaker_id) unless speaker_id.blank?
     end
+    @talk.speakers = speakers
+
+    @talk.update(talk_params)
+  end
+
+  # Use callbacks to share common setup or constraints between actions.
+  def set_talk
+    @talk = Talk.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def talk_params
+    params.require(:talk).permit(:title, :date, :slides, speakers: {})
+  end
 end
