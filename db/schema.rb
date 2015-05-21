@@ -11,12 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150512123257) do
+ActiveRecord::Schema.define(version: 20150521190349) do
 
   create_table "speakers", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "team"
+    t.boolean  "current"
+    t.boolean  "external"
   end
 
   create_table "speakers_talks", id: false, force: true do |t|
