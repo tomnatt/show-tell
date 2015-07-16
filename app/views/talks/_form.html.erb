@@ -1,0 +1,12 @@
+<%= semantic_form_for @talk do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :title %>
+    <%= f.input :date %>
+    <%= f.input :slides %>
+    <%= f.input :speakers, :as => :check_boxes %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :input %>
+  <% end %>
+<% end %>
