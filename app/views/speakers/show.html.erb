@@ -5,10 +5,16 @@
   <%= @speaker.name %>
 </p>
 
-<p>
-  <strong>Talks:</strong>
-  <%= @speaker.talks %>
-</p>
+<% unless @speaker.talks.blank? %>
+  <p>
+    <strong>Talks:</strong>
+    <ul>
+    <% @speaker.talks.each do |talk| %>
+      <li><%= talk.title %></li>
+    <% end %>
+    </ul>
+  </p>
+<% end %>
 
 <%= link_to 'Edit', edit_speaker_path(@speaker) %> |
 <%= link_to 'Back', speakers_path %>
