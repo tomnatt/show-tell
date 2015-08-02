@@ -9,7 +9,7 @@ target = gets.chomp
 # Open the page
 doc = Nokogiri::HTML(open("#{target}"))
 
-# Gets dates and spits them out
+# Gets h2 and the next element
 doc.xpath('//div[@id="main-content"]//h2').each do |header|
   h = header.content.chomp
 
@@ -19,12 +19,10 @@ doc.xpath('//div[@id="main-content"]//h2').each do |header|
   # Turns the date string into datetime
   date = DateTime.parse(datestr)
   puts date.strftime('%v')
+
+  # Gets the contents of each following list item and spits them out
+  list = header.next_element.children
+  list.each do |item|
+    puts item.content.chomp
+  end
 end
-
-# # Splits up each talk - coming back to this later
-
-# doc.xpath('//div[@id="main-content"]//ul/li').each do |item|
-#   x = item.content.chomp
-#   speaker = x.gsub(/\(([a-zA-Z])\)$/, '\1')
-#   puts speaker
-# end
