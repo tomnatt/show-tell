@@ -18,11 +18,13 @@ doc.xpath('//div[@id="main-content"]//h2').each do |header|
 
   # Turns the date string into datetime
   date = DateTime.parse(datestr)
-  puts date.strftime('%v')
 
   # Gets the contents of each following list item and spits them out
   list = header.next_element.children
   list.each do |item|
-    puts item.content.chomp
+    talk_details = item.content.chomp.split('(')
+    talk_name = talk_details[0].gsub(/[[:space:]]+$/, '')
+    speaker = talk_details[1].sub(/\)/, '')
+    puts date.strftime('%v') + ': ' + talk_name + ' by ' + speaker
   end
 end
