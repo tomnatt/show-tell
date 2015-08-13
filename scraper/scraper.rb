@@ -25,5 +25,7 @@ doc.xpath('//div[@id="main-content"]//h2').each do |header|
     talk_details = item.content.chomp.split('(')
     talk_name = talk_details[0].gsub(/[[:space:]]+$/, '')
     speakers = talk_details[1].sub(/\)/, '').split(', ')
+
+    puts talk_name + date + speakers
   end
 end
