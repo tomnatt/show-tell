@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'uri'
+require 'yaml'
 
 # Get the URL
 puts 'Who you gonna scrape?'
@@ -8,6 +9,8 @@ target = gets.chomp
 
 # Open the page
 doc = Nokogiri::HTML(open("#{target}"))
+
+output = ''
 
 # Gets h2 and the next element
 doc.xpath('//div[@id="main-content"]//h2').each do |header|
@@ -24,8 +27,14 @@ doc.xpath('//div[@id="main-content"]//h2').each do |header|
   list.each do |item|
     talk_details = item.content.chomp.split('(')
     talk_name = talk_details[0].gsub(/[[:space:]]+$/, '')
-    speakers = talk_details[1].sub(/\)/, '').split(', ')
+    # speakers = talk_details[1].sub(/\)/, '').split(', ')
 
-    puts talk_name + date + speakers
+    output += '- title: ' + talk_name
+    output += "\n  date: " + date.strftime('%Y-%m-%d') + "\n\n"
   end
 end
+
+output_file = File.join(Dir.pwd, '../db/wiki_data/talks.yml')
+File.open(output_file, 'w+') { |f| f.write(output) }
+
+puts 'Done!'
