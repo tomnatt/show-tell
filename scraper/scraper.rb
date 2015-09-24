@@ -14,10 +14,10 @@ def create_talk_yaml(target_url, output_filename)
     h = header.content.chomp
 
     # Removes "Agenda for" and stuff in parentheses at the end
-    datestr = h.sub(/\AAgenda\ for\ /, '').sub(/\ *\([a-zA-Z0-9 ]*\)\z/, '').chomp
+    date_str = h.sub(/\AAgenda\ for\ /, '').sub(/\ *\([a-zA-Z0-9 ]*\)\z/, '').chomp
 
     # Turns the date string into datetime
-    date = DateTime.parse(datestr)
+    date = DateTime.parse(date_str)
 
     # Gets the contents of each following list item and spits them out
     list = header.next_element.children
@@ -34,11 +34,12 @@ def create_talk_yaml(target_url, output_filename)
   end
 
   output_file = File.join(Dir.pwd, 'db/wiki_data', output_filename)
-  File.open(output_file, 'w') { |f| f.write(output.to_yaml) }
+  # disable line auto-wrapping in yaml output
+  File.open(output_file, 'w') { |f| f.write(output.to_yaml({:line_width => -1})) }
 end
 
 show_tell_pages = [
-                    # ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2013', 'talks-2013.yml'],
+                    ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2013', 'talks-2013.yml'],
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2014', 'talks-2014.yml'],
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda', 'talks-2015.yml'],
                   ]
