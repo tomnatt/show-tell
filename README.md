@@ -5,8 +5,12 @@ An application for managing bits of Show &amp; Tell
 
 Uses [RGraph](http://www.rgraph.net/)
 
-# Creating the database
+## Starting it up
 
-Run rake db:reset and it'll regenerate the database from scratch
+```
+ruby scraper/scraper.rb
+rake db:reset
+rails s
+```
 
-rake db:seed will just add stuff on the top and make duplicates maybe :(
+Seed data will be loaded on start-up.
