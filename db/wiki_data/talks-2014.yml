@@ -1,0 +1,227 @@
+---
+- title: Linting your code
+  date: '2014-12-05'
+- title: Why good content is important
+  date: '2014-12-05'
+- title: Agile user testing
+  date: '2014-12-05'
+- title: OpenStreetMap
+  date: '2014-12-05'
+- title: Hacking Santa
+  date: '2014-12-05'
+- title: Intro to Ruby Idioms
+  date: '2014-11-21'
+- title: Less stuff
+  date: '2014-11-21'
+- title: So what do I actually do?
+  date: '2014-11-21'
+- title: Putting it together - what happened to BrowserStack
+  date: '2014-11-21'
+- title: Alpha Papa
+  date: '2014-11-21'
+- title: University of Bath questions
+  date: '2014-11-07'
+- title: Security misconfiguration
+  date: '2014-11-07'
+- title: Prospectus Reboot
+  date: '2014-11-07'
+- title: Research review
+  date: '2014-11-07'
+- title: Five Rules for Better Images
+  date: '2014-11-07'
+- title: Flow
+  date: '2014-10-24'
+- title: Ace of Rebase
+  date: '2014-10-24'
+- title: Web Analysis
+  date: '2014-10-24'
+- title: Prospectus α
+  date: '2014-10-24'
+- title: Dan and the amazing CMS
+  date: '2014-10-24'
+- title: KIS
+  date: '2014-10-10'
+- title: Content TYPES
+  date: '2014-10-10'
+- title: Accessibility tools
+  date: '2014-10-10'
+- title: Building with Bamboo
+  date: '2014-10-10'
+- title: Expecto Somethingum
+  date: '2014-10-10'
+- title: Editorial Calendar
+  date: '2014-09-26'
+- title: On-campus analytics
+  date: '2014-09-26'
+- title: Insecure Direct Object Reference
+  date: '2014-09-26'
+- title: Digital Monkeys
+  date: '2014-09-26'
+- title: Homepage Alpha
+  date: '2014-09-12'
+- title: Library landing page
+  date: '2014-09-12'
+- title: XSS
+  date: '2014-09-12'
+- title: CMS architecture
+  date: '2014-09-12'
+- title: Hootsuite
+  date: '2014-09-12'
+- title: Prospectus roles and permissions
+  date: '2014-08-29'
+- title: Pivotal
+  date: '2014-08-29'
+- title: All about social media
+  date: '2014-08-29'
+- title: Homepage prototype
+  date: '2014-08-29'
+- title: Professional Services challenges and lessons
+  date: '2014-08-15'
+- title: Visas
+  date: '2014-08-15'
+- title: Injection and authentication
+  date: '2014-08-15'
+- title: Live chat
+  date: '2014-08-15'
+- title: Gambling with UX
+  date: '2014-08-15'
+- title: Structured content vocabulary
+  date: '2014-08-01'
+- title: Professional Services
+  date: '2014-08-01'
+- title: The man in the middle
+  date: '2014-08-01'
+- title: Github workflow
+  date: '2014-08-01'
+- title: UX Bristol 2014 - Estimates
+  date: '2014-08-01'
+- title: go.bath.ac.uk
+  date: '2014-07-18'
+- title: Getting served
+  date: '2014-07-18'
+- title: Universal analytics
+  date: '2014-07-18'
+- title: Browser tools for mobile emulation
+  date: '2014-07-18'
+- title: Entrepreneurship
+  date: '2014-07-18'
+- title: Social media audit
+  date: '2014-07-04'
+- title: Research landing page
+  date: '2014-07-04'
+- title: Cache in the attic
+  date: '2014-07-04'
+- title: Open Day user testing
+  date: '2014-07-04'
+- title: Extremely Dashing
+  date: '2014-07-04'
+- title: Digital signage
+  date: '2014-06-20'
+- title: Changes to /about layouts
+  date: '2014-06-20'
+- title: Vine
+  date: '2014-06-20'
+- title: Product roadmaps format demo
+  date: '2014-06-20'
+- title: Careers site
+  date: '2014-06-06'
+- title: Visa process of applicants
+  date: '2014-06-06'
+- title: World domination
+  date: '2014-06-06'
+- title: Something something prospectus
+  date: '2014-06-06'
+- title: The long overdue death of inPictures
+  date: '2014-05-23'
+- title: Prof services update
+  date: '2014-05-23'
+- title: Talking to the Marvel API with Meteor
+  date: '2014-05-23'
+- title: Landing page update
+  date: '2014-05-23'
+- title: Editorial decision making for the homepage
+  date: '2014-05-09'
+- title: What is Buffer?
+  date: '2014-05-09'
+- title: Remote user testing
+  date: '2014-05-09'
+- title: What the dickens is GitHub?
+  date: '2014-05-09'
+- title: Structured content
+  date: '2014-05-09'
+- title: BDD with Cucumber
+  date: '2014-04-25'
+- title: Service Catalogue
+  date: '2014-04-25'
+- title: '360'
+  date: '2014-04-25'
+- title: Carousels
+  date: '2014-04-25'
+- title: New Public Lectures page
+  date: '2014-04-25'
+- title: A more accessible accordion
+  date: '2014-04-11'
+- title: UG applicants
+  date: '2014-04-11'
+- title: The death of IE8
+  date: '2014-04-11'
+- title: Alumni homepage
+  date: '2014-04-11'
+- title: Longform content
+  date: '2014-04-11'
+- title: " Home page discovery"
+  date: '2014-03-28'
+- title: MOOCs
+  date: '2014-03-28'
+- title: Style
+  date: '2014-03-28'
+- title: BBA voxpops
+  date: '2014-03-28'
+- title: Public lectures and other events
+  date: '2014-03-28'
+- title: Visual impairment
+  date: '2014-03-14'
+- title: Alert!
+  date: '2014-03-14'
+- title: Professional Services sites
+  date: '2014-03-14'
+- title: Culture Change
+  date: '2014-03-14'
+- title: The mobile library & sitemap generating
+  date: '2014-03-14'
+- title: Working with Foundation 5
+  date: '2014-02-28'
+- title: The future of the UG prospectus
+  date: '2014-02-28'
+- title: Foundation and SAMIS
+  date: '2014-02-28'
+- title: Pictures on the Walls
+  date: '2014-02-28'
+- title: Longform content
+  date: '2014-02-28'
+- title: Foundation 5 - the future!
+  date: '2014-02-14'
+- title: What's going on with this CMS testing then?
+  date: '2014-02-14'
+- title: Iterating the meganav
+  date: '2014-02-14'
+- title: Key performance indicators
+  date: '2014-02-14'
+- title: User testing for the library
+  date: '2014-02-14'
+- title: All the broken pages
+  date: '2014-01-31'
+- title: Flickr galleries
+  date: '2014-01-31'
+- title: Automatic Auditing
+  date: '2014-01-31'
+- title: A whirlwind tour of helpful CMS tools
+  date: '2014-01-31'
+- title: The making of Bath
+  date: '2014-01-31'
+- title: Visits vs page views
+  date: '2014-01-17'
+- title: SAMIS magic
+  date: '2014-01-17'
+- title: Plans for /worldwide domination
+  date: '2014-01-17'

@@ -6,25 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-speaker_list = [
-  'Tom N',
-  'Phil',
-  'Liam',
-  'Kelv',
-  'Dan',
-  'Miles',
-  'Charlotte',
-  'Iris',
-  'Ross',
-  'Tom T',
-  'Rich',
-  'Chris',
-  'Justin',
-  'Paul',
-  'Rhian',
-  'Hanna'
-]
-
-speaker_list.each do |name|
-  Speaker.create(name: name)
+# load all the talks files
+Dir[File.join(Rails.root, 'db', 'wiki_data', '*.yml')].each do |seed_file|
+  config = YAML::load_file(seed_file)
+  Talk.create!(config)
 end
