@@ -6,6 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-seed_file = Rails.root.join('db', 'wiki_data', 'talks.yml')
-config = YAML::load_file(seed_file)
-Talk.create!(config)
+# load all the talks files
+Dir[File.join(Rails.root, 'db', 'wiki_data', '*.yml')].each do |seed_file|
+  config = YAML::load_file(seed_file)
+  Talk.create!(config)
+end

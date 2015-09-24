@@ -1,0 +1,201 @@
+---
+- title: Beta demo
+  date: '2015-12-18'
+- title: Beta demo
+  date: '2015-12-04'
+- title: Beta demo
+  date: '2015-11-20'
+- title: Beta demo
+  date: '2015-11-06'
+- title: Beta demo
+  date: '2015-10-23'
+- title: Beta demo
+  date: '2015-10-09'
+- title: Reflections from IWMW
+  date: '2015-10-09'
+- title: Changes to personfinder
+  date: '2015-10-09'
+- title: Beta demo
+  date: '2015-09-25'
+- title: Moving the content
+  date: '2015-09-25'
+- title: Learning how to GA
+  date: '2015-09-25'
+- title: The mighty hyphen
+  date: '2015-09-25'
+- title: More Regular Expressions
+  date: '2015-09-25'
+- title: Beta demo
+  date: '2015-09-11'
+- title: Running tests with Guard
+  date: '2015-09-11'
+- title: The Agile University
+  date: '2015-09-11'
+- title: How we manage our Weibo account
+  date: '2015-09-11'
+- title: Beta demo
+  date: '2015-08-28'
+- title: Content transition roadmap
+  date: '2015-08-28'
+- title: Content Inventory Tool architecture
+  date: '2015-08-28'
+- title: The Foundry
+  date: '2015-08-28'
+- title: Reflections from IWMW
+  date: '2015-08-28'
+- title: Beta demo
+  date: '2015-08-14'
+- title: URL Shortener
+  date: '2015-08-14'
+- title: New group manager
+  date: '2015-08-14'
+- title: Regular Expressions for content people
+  date: '2015-08-14'
+- title: Vertical rhythm
+  date: '2015-08-14'
+- title: Beta demo
+  date: '2015-07-31'
+- title: Publishing workflow
+  date: '2015-07-31'
+- title: Feature testing - capybara
+  date: '2015-07-31'
+- title: UX Bristol
+  date: '2015-07-31'
+- title: Digital storytelling
+  date: '2015-07-31'
+- title: Beta demo
+  date: '2015-07-17'
+- title: Fixing a five year problem
+  date: '2015-07-17'
+- title: Funnelback
+  date: '2015-07-17'
+- title: Centralised logging
+  date: '2015-07-17'
+- title: Raising your search rank in China
+  date: '2015-07-17'
+- title: Beta demo
+  date: '2015-07-03'
+- title: Schema.org
+  date: '2015-07-03'
+- title: FutureLearn hack day
+  date: '2015-07-03'
+- title: Business Intelligence POC
+  date: '2015-07-03'
+- title: Sonic Pi
+  date: '2015-07-03'
+- title: Beta demo
+  date: '2015-06-19'
+- title: What is omnichannel and why is it important?
+  date: '2015-06-19'
+- title: Uptime reports
+  date: '2015-06-19'
+- title: Internet market & digital marketing for UK higher education in China
+  date: '2015-06-19'
+- title: Thinking Digital
+  date: '2015-06-19'
+- title: Beta demo
+  date: '2015-06-05'
+- title: Student discovery
+  date: '2015-06-05'
+- title: Validations
+  date: '2015-06-05'
+- title: The Totally Awesome Content Trackatron
+  date: '2015-06-05'
+- title: 16 pixels of pain
+  date: '2015-06-05'
+- title: Beta demo
+  date: '2015-05-22'
+- title: Auditing bootcamp
+  date: '2015-05-22'
+- title: Simple edits using Github
+  date: '2015-05-22'
+- title: IdeaScale
+  date: '2015-05-22'
+- title: Planning user testing
+  date: '2015-05-22'
+- title: Beta demo
+  date: '2015-05-08'
+- title: Redis
+  date: '2015-05-08'
+- title: MailChimp
+  date: '2015-05-08'
+- title: How we work - Pivotal
+  date: '2015-05-08'
+- title: Who's Hugo?
+  date: '2015-05-08'
+- title: Mobile apps
+  date: '2015-04-24'
+- title: Beta demo
+  date: '2015-04-24'
+- title: Content inventory analysis
+  date: '2015-04-24'
+- title: IMI
+  date: '2015-04-24'
+- title: Microcopy
+  date: '2015-04-24'
+- title: Beta demo
+  date: '2015-04-10'
+- title: Vagrant
+  date: '2015-04-10'
+- title: Rails security
+  date: '2015-04-10'
+- title: Beta demo
+  date: '2015-03-27'
+- title: CMS usage
+  date: '2015-03-27'
+- title: Moving parts
+  date: '2015-03-27'
+- title: Events booking discovery
+  date: '2015-03-27'
+- title: Eventbrite AP
+  date: '2015-03-27'
+- title: Social media audit
+  date: '2015-03-13'
+- title: Beta update
+  date: '2015-03-13'
+- title: Business discovery findings
+  date: '2015-03-13'
+- title: Agile content
+  date: '2015-03-13'
+- title: Anatomy of a responsive website
+  date: '2015-03-13'
+- title: Pushing code live
+  date: '2015-02-27'
+- title: Content Types
+  date: '2015-02-27'
+- title: User testing the Alpha
+  date: '2015-02-27'
+- title: Prospectus Alpha model
+  date: '2015-02-27'
+- title: Why are you looking at that? User behaviour.
+  date: '2015-02-27'
+- title: Content inventory
+  date: '2015-02-13'
+- title: Webinars
+  date: '2015-02-13'
+- title: Printing the prospectus
+  date: '2015-02-13'
+- title: The International Section
+  date: '2015-02-13'
+- title: Git on up
+  date: '2015-02-13'
+- title: Alpha CMS infrastructure
+  date: '2015-01-30'
+- title: How to code - variables
+  date: '2015-01-30'
+- title: CRM - Benefits for Bath
+  date: '2015-01-30'
+- title: MOOC Big data
+  date: '2015-01-30'
+- title: Break Conference
+  date: '2015-01-30'
+- title: Transport discovery sprint
+  date: '2015-01-16'
+- title: Going Live
+  date: '2015-01-16'
+- title: CRM - Maximising the impact
+  date: '2015-01-16'
+- title: Pattern Primer
+  date: '2015-01-16'
+- title: All the small things
+  date: '2015-01-16'
