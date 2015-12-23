@@ -1,227 +1,470 @@
 ---
 - title: Linting your code
   date: '2014-12-05'
+  speakers:
+  - KelvSolutions as a Pull Request
 - title: Why good content is important
   date: '2014-12-05'
+  speakers:
+  - Richard
 - title: Agile user testing
   date: '2014-12-05'
+  speakers:
+  - Charlotte
 - title: OpenStreetMap
   date: '2014-12-05'
+  speakers:
+  - Chris
 - title: Hacking Santa
   date: '2014-12-05'
+  speakers:
+  - Tom N
 - title: Intro to Ruby Idioms
   date: '2014-11-21'
+  speakers:
+  - Kelv
 - title: Less stuff
   date: '2014-11-21'
+  speakers:
+  - Dan
 - title: So what do I actually do?
   date: '2014-11-21'
+  speakers:
+  - Katrina
 - title: Putting it together - what happened to BrowserStack
   date: '2014-11-21'
+  speakers:
+  - Tom N
 - title: Alpha Papa
   date: '2014-11-21'
+  speakers:
+  - Ross
 - title: University of Bath questions
   date: '2014-11-07'
+  speakers:
+  - Ross
 - title: Security misconfiguration
   date: '2014-11-07'
+  speakers:
+  - Tom N
 - title: Prospectus Reboot
   date: '2014-11-07'
+  speakers:
+  - Maree
 - title: Research review
   date: '2014-11-07'
+  speakers:
+  - Iris
 - title: Five Rules for Better Images
   date: '2014-11-07'
+  speakers:
+  - Liam
 - title: Flow
   date: '2014-10-24'
+  speakers:
+  - Charlotte
 - title: Ace of Rebase
   date: '2014-10-24'
+  speakers:
+  - Tom N
 - title: Web Analysis
   date: '2014-10-24'
+  speakers:
+  - Takashi
 - title: Prospectus α
   date: '2014-10-24'
+  speakers:
+  - Liam
+  - Rhian
 - title: Dan and the amazing CMS
   date: '2014-10-24'
+  speakers:
+  - Dan
 - title: KIS
   date: '2014-10-10'
+  speakers:
+  - Kelv
 - title: Content TYPES
   date: '2014-10-10'
+  speakers:
+  - Dan and Richard
 - title: Accessibility tools
   date: '2014-10-10'
+  speakers:
+  - Tom N - Wiki Documentation: Accessibility, Accessibility - proposals
 - title: Building with Bamboo
   date: '2014-10-10'
+  speakers:
+  - Phil
 - title: Expecto Somethingum
   date: '2014-10-10'
+  speakers:
+  - Richard
 - title: Editorial Calendar
   date: '2014-09-26'
+  speakers:
+  - Rhian
 - title: On-campus analytics
   date: '2014-09-26'
+  speakers:
+  - Ross
 - title: Insecure Direct Object Reference
   date: '2014-09-26'
+  speakers:
+  - Tom N
 - title: Digital Monkeys
   date: '2014-09-26'
+  speakers:
+  - Charlotte
 - title: Homepage Alpha
   date: '2014-09-12'
+  speakers:
+  - Miles
+  - Tom T
+  - Dan
 - title: Library landing page
   date: '2014-09-12'
+  speakers:
+  - Liam
+  - Kelv
 - title: XSS
   date: '2014-09-12'
+  speakers:
+  - Tom N
 - title: CMS architecture
   date: '2014-09-12'
+  speakers:
+  - Phil
 - title: Hootsuite
   date: '2014-09-12'
+  speakers:
+  - Iris
 - title: Prospectus roles and permissions
   date: '2014-08-29'
+  speakers:
+  - Tom T
 - title: Pivotal
   date: '2014-08-29'
+  speakers:
+  - Ross
 - title: All about social media
   date: '2014-08-29'
+  speakers:
+  - Charlotte
 - title: Homepage prototype
   date: '2014-08-29'
+  speakers:
+  - Liam
 - title: Professional Services challenges and lessons
   date: '2014-08-15'
+  speakers:
+  - Paul
 - title: Visas
   date: '2014-08-15'
+  speakers:
+  - Charlotte
 - title: Injection and authentication
   date: '2014-08-15'
+  speakers:
+  - Tom N
 - title: Live chat
   date: '2014-08-15'
+  speakers:
+  - Matt
 - title: Gambling with UX
   date: '2014-08-15'
+  speakers:
+  - Miles
 - title: Structured content vocabulary
   date: '2014-08-01'
+  speakers:
+  - Richard
 - title: Professional Services
   date: '2014-08-01'
+  speakers:
+  - Justin
 - title: The man in the middle
   date: '2014-08-01'
+  speakers:
+  - Tom N
 - title: Github workflow
   date: '2014-08-01'
+  speakers:
+  - Kelv
 - title: UX Bristol 2014 - Estimates
   date: '2014-08-01'
+  speakers:
+  - Dan
 - title: go.bath.ac.uk
   date: '2014-07-18'
+  speakers:
+  - Tom T
 - title: Getting served
   date: '2014-07-18'
+  speakers:
+  - Phil
 - title: Universal analytics
   date: '2014-07-18'
+  speakers:
+  - Chris
 - title: Browser tools for mobile emulation
   date: '2014-07-18'
+  speakers:
+  - Tom T
 - title: Entrepreneurship
   date: '2014-07-18'
+  speakers:
+  - Joey
 - title: Social media audit
   date: '2014-07-04'
+  speakers:
+  - Charlotte
+  - Iris
 - title: Research landing page
   date: '2014-07-04'
+  speakers:
+  - Miles
 - title: Cache in the attic
   date: '2014-07-04'
+  speakers:
+  - Tom N
 - title: Open Day user testing
   date: '2014-07-04'
+  speakers:
+  - Dan
 - title: Extremely Dashing
   date: '2014-07-04'
+  speakers:
+  - Phil
 - title: Digital signage
   date: '2014-06-20'
+  speakers:
+  - Ben Harris
+  - Martin Cornish
 - title: Changes to /about layouts
   date: '2014-06-20'
+  speakers:
+  - Kelvin
 - title: Vine
   date: '2014-06-20'
+  speakers:
+  - Jessica Otterwell
 - title: Product roadmaps format demo
   date: '2014-06-20'
+  speakers:
+  - Ross
 - title: Careers site
   date: '2014-06-06'
+  speakers:
+  - Charlotte
+  - Iris 
 - title: Visa process of applicants
   date: '2014-06-06'
+  speakers:
+  - Lara
 - title: World domination
   date: '2014-06-06'
+  speakers:
+  - Will Marsh
 - title: Something something prospectus
   date: '2014-06-06'
+  speakers:
+  - Tom N
 - title: The long overdue death of inPictures
   date: '2014-05-23'
+  speakers:
+  - Tom T
 - title: Prof services update
   date: '2014-05-23'
+  speakers:
+  - Justin
 - title: Talking to the Marvel API with Meteor
   date: '2014-05-23'
+  speakers:
+  - Kelv
 - title: Landing page update
   date: '2014-05-23'
+  speakers:
+  - Liam
 - title: Editorial decision making for the homepage
   date: '2014-05-09'
+  speakers:
+  - Richard
 - title: What is Buffer?
   date: '2014-05-09'
+  speakers:
+  - Charlotte
 - title: Remote user testing
   date: '2014-05-09'
+  speakers:
+  - Liam
 - title: What the dickens is GitHub?
   date: '2014-05-09'
+  speakers:
+  - Phil
 - title: Structured content
   date: '2014-05-09'
+  speakers:
+  - Tom N 
 - title: BDD with Cucumber
   date: '2014-04-25'
+  speakers:
+  - Kelv
 - title: Service Catalogue
   date: '2014-04-25'
+  speakers:
+  - Chris
 - title: '360'
   date: '2014-04-25'
+  speakers:
+  - Phil
 - title: Carousels
   date: '2014-04-25'
+  speakers:
+  - Takashi
 - title: New Public Lectures page
   date: '2014-04-25'
+  speakers:
+  - Iris
+  - Miles
 - title: A more accessible accordion
   date: '2014-04-11'
+  speakers:
+  - Dan
 - title: UG applicants
   date: '2014-04-11'
+  speakers:
+  - Rich
 - title: The death of IE8
   date: '2014-04-11'
+  speakers:
+  - Kelv
 - title: Alumni homepage
   date: '2014-04-11'
+  speakers:
+  - Liam
+  - Tom N
 - title: Longform content
   date: '2014-04-11'
+  speakers:
+  - Iris
 - title:  Home page discovery
   date: '2014-03-28'
+  speakers:
+  - Dan 
 - title: MOOCs
   date: '2014-03-28'
+  speakers:
+  - Nitin
+  - Marie
 - title: Style
   date: '2014-03-28'
+  speakers:
+  - Charlotte
+  - Lara
 - title: BBA voxpops
   date: '2014-03-28'
+  speakers:
+  - Joey
 - title: Public lectures and other events
   date: '2014-03-28'
+  speakers:
+  - Miles 
 - title: Visual impairment
   date: '2014-03-14'
+  speakers:
+  - Kelv
 - title: Alert!
   date: '2014-03-14'
+  speakers:
+  - Tom N
 - title: Professional Services sites
   date: '2014-03-14'
+  speakers:
+  - Justin
+  - Paul
 - title: Culture Change
   date: '2014-03-14'
+  speakers:
+  - Ross 
 - title: The mobile library & sitemap generating
   date: '2014-03-14'
+  speakers:
+  - Liam  
 - title: Working with Foundation 5
   date: '2014-02-28'
+  speakers:
+  - Tom N
+  - Tom T
 - title: The future of the UG prospectus
   date: '2014-02-28'
+  speakers:
+  - Rich
 - title: Foundation and SAMIS
   date: '2014-02-28'
+  speakers:
+  - Steve Wyatt
 - title: Pictures on the Walls
   date: '2014-02-28'
+  speakers:
+  - Charlotte
+  - Dan
 - title: Longform content
   date: '2014-02-28'
+  speakers:
+  - Miles
+  - Iris
 - title: Foundation 5 - the future!
   date: '2014-02-14'
+  speakers:
+  - Dan
 - title: What's going on with this CMS testing then?
   date: '2014-02-14'
+  speakers:
+  - Tom N
 - title: Iterating the meganav
   date: '2014-02-14'
+  speakers:
+  - Miles
 - title: Key performance indicators
   date: '2014-02-14'
+  speakers:
+  - Ross
 - title: User testing for the library
   date: '2014-02-14'
+  speakers:
+  - Liam
+  - Lara
 - title: All the broken pages
   date: '2014-01-31'
+  speakers:
+  - Phil
 - title: Flickr galleries
   date: '2014-01-31'
+  speakers:
+  - Miles
+  - Iris
 - title: Automatic Auditing
   date: '2014-01-31'
+  speakers:
+  - Tom N
 - title: A whirlwind tour of helpful CMS tools
   date: '2014-01-31'
+  speakers:
+  - Phil
 - title: The making of Bath
   date: '2014-01-31'
+  speakers:
+  - Liam
 - title: Visits vs page views
   date: '2014-01-17'
+  speakers:
+  - Tom N
 - title: SAMIS magic
   date: '2014-01-17'
+  speakers:
+  - Matt Dales
 - title: Plans for /worldwide domination
   date: '2014-01-17'
+  speakers:
+  - Ross

@@ -14,3 +14,9 @@ rails s
 ```
 
 Seed data will be automatically loaded on start-up.
+
+## Data views
+
+* How many talks by a person?
+* Talks in a year?
+* Talks by a person (by year)?

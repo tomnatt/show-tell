@@ -24,11 +24,12 @@ def create_talk_yaml(target_url, output_filename)
     list.each do |item|
       talk_details = item.content.chomp.split('(')
       talk_name = talk_details[0].gsub(/[[:space:]]+\z/, '')
-      # speakers = talk_details[1].sub(/\)/, '').split(', ')
+      speaker_names = talk_details[1].sub(/\)/, '').split(', ')
 
       output << {
         'title' => talk_name,
-        'date' => date.strftime('%Y-%m-%d')
+        'date' => date.strftime('%Y-%m-%d'),
+        'speakers' => speaker_names
       }
     end
   end

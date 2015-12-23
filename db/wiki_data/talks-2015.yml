@@ -1,233 +1,466 @@
 ---
 - title: Beta demo
   date: '2015-12-04'
+  speakers:
+  - Rich
 - title: Microservices
   date: '2015-12-04'
+  speakers:
+  - Tom N
 - title: desk.com
   date: '2015-12-04'
+  speakers:
+  - Chris
 - title: The prospectus
   date: '2015-12-04'
+  speakers:
+  - Maree
 - title: Beta demo
   date: '2015-11-20'
+  speakers:
+  - Rich
 - title: Transition update
   date: '2015-11-20'
+  speakers:
+  - Rich
 - title: Password security
   date: '2015-11-20'
+  speakers:
+  - Tom N
 - title: Data migration in Rails
   date: '2015-11-20'
+  speakers:
+  - Kelv
 - title: Worldwide
   date: '2015-11-20'
+  speakers:
+  - Miao
 - title: Beta demo
   date: '2015-11-06'
+  speakers:
+  - Phil
 - title: User testing the prospectus
   date: '2015-11-06'
+  speakers:
+  - Liam
 - title: Planning content by mapping user journeys
   date: '2015-11-06'
+  speakers:
+  - Iris
 - title: Dude, where's my file?
   date: '2015-11-06'
+  speakers:
+  - Kelv
 - title: Flex in flux
   date: '2015-11-06'
+  speakers:
+  - Dan
 - title: Beta demo
   date: '2015-10-23'
+  speakers:
+  - Phil
 - title: ReactJS
   date: '2015-10-23'
+  speakers:
+  - Tom N
 - title: Bamboo and the upgrade
   date: '2015-10-23'
+  speakers:
+  - Tom T
 - title: Research strategy
   date: '2015-10-23'
+  speakers:
+  - Hanna
 - title: Covert accessibility
   date: '2015-10-23'
+  speakers:
+  - Dan
 - title: Beta demo
   date: '2015-10-09'
+  speakers:
+  - Ross
 - title: Changes to personfinder
   date: '2015-10-09'
+  speakers:
+  - Tom N
 - title: Usage of navigation on Staff and Students page
   date: '2015-10-09'
+  speakers:
+  - Takashi
 - title: Smart punctuation in the CMS editor
   date: '2015-10-09'
+  speakers:
+  - Liam
 - title: Visit to Harvard
   date: '2015-10-09'
+  speakers:
+  - Miao
 - title: Beta demo
   date: '2015-09-25'
+  speakers:
+  - Ross
 - title: Moving the content
   date: '2015-09-25'
+  speakers:
+  - Tom N
 - title: Learning how to GA
   date: '2015-09-25'
+  speakers:
+  - Charlotte
 - title: More Regular Expressions
   date: '2015-09-25'
+  speakers:
+  - Iris
 - title: The mighty hyphen
   date: '2015-09-25'
+  speakers:
+  - Dan
 - title: Beta demo
   date: '2015-09-11'
+  speakers:
+  - Ross
 - title: Running tests with Guard
   date: '2015-09-11'
+  speakers:
+  - Kelv
 - title: The Agile University
   date: '2015-09-11'
+  speakers:
+  - Rich
 - title: How we manage our Weibo account
   date: '2015-09-11'
+  speakers:
+  - Miao
 - title: Beta demo
   date: '2015-08-28'
+  speakers:
+  - Ross
 - title: Content transition roadmap
   date: '2015-08-28'
+  speakers:
+  - Rich
 - title: Content Inventory Tool architecture
   date: '2015-08-28'
+  speakers:
+  - Tom N
 - title: The Foundry
   date: '2015-08-28'
+  speakers:
+  - Dan
 - title: Reflections from IWMW
   date: '2015-08-28'
+  speakers:
+  - Justin
+  - Rhian
 - title: Beta demo
   date: '2015-08-14'
+  speakers:
+  - Ross
 - title: URL Shortener
   date: '2015-08-14'
+  speakers:
+  - Tom T
 - title: New group manager
   date: '2015-08-14'
+  speakers:
+  - Tom N
 - title: Regular Expressions for content people
   date: '2015-08-14'
+  speakers:
+  - Iris
 - title: Vertical rhythm
   date: '2015-08-14'
+  speakers:
+  - Liam
 - title: Beta demo
   date: '2015-07-31'
+  speakers:
+  - Ross
 - title: Publishing workflow
   date: '2015-07-31'
+  speakers:
+  - Dan
 - title: Feature testing - capybara
   date: '2015-07-31'
+  speakers:
+  - Kelv
 - title: UX Bristol
   date: '2015-07-31'
+  speakers:
+  - Iris
 - title: Digital storytelling
   date: '2015-07-31'
+  speakers:
+  - Hanna
 - title: Beta demo
   date: '2015-07-17'
+  speakers:
+  - Phil
 - title: Fixing a five year problem
   date: '2015-07-17'
+  speakers:
+  - Tom N
 - title: Funnelback
   date: '2015-07-17'
+  speakers:
+  - Tom T
 - title: Centralised logging
   date: '2015-07-17'
+  speakers:
+  - Phil
 - title: Raising your search rank in China
   date: '2015-07-17'
+  speakers:
+  - Miao
 - title: Beta demo
   date: '2015-07-03'
+  speakers:
+  - Ross
 - title: Schema.org
   date: '2015-07-03'
+  speakers:
+  - Dan
 - title: FutureLearn hack day
   date: '2015-07-03'
+  speakers:
+  - Tom N
 - title: Business Intelligence POC
   date: '2015-07-03'
+  speakers:
+  - John Beaver
 - title: Sonic Pi
   date: '2015-07-03'
+  speakers:
+  - Tom T
 - title: Beta demo
   date: '2015-06-19'
+  speakers:
+  - Phil
 - title: What is omnichannel and why is it important?
   date: '2015-06-19'
+  speakers:
+  - Rich
 - title: Uptime reports
   date: '2015-06-19'
+  speakers:
+  - Phil
 - title: Internet market & digital marketing for UK higher education in China
   date: '2015-06-19'
+  speakers:
+  - Miao
 - title: Thinking Digital
   date: '2015-06-19'
+  speakers:
+  - Hanna
 - title: Beta demo
   date: '2015-06-05'
+  speakers:
+  - Ross
 - title: Student discovery
   date: '2015-06-05'
+  speakers:
+  - Paul & Rhian
 - title: Validations
   date: '2015-06-05'
+  speakers:
+  - Tom N
 - title: The Totally Awesome Content Trackatron
   date: '2015-06-05'
+  speakers:
+  - Iris
 - title: 16 pixels of pain
   date: '2015-06-05'
+  speakers:
+  - Dan
 - title: Beta demo
   date: '2015-05-22'
+  speakers:
+  - Ross
 - title: Auditing bootcamp
   date: '2015-05-22'
+  speakers:
+  - Rhian
 - title: Simple edits using Github
   date: '2015-05-22'
+  speakers:
+  - Kelv
 - title: IdeaScale
   date: '2015-05-22'
+  speakers:
+  - Ben Harris
 - title: Planning user testing
   date: '2015-05-22'
+  speakers:
+  - Hanna
 - title: Beta demo
   date: '2015-05-08'
+  speakers:
+  - Rich
 - title: Redis
   date: '2015-05-08'
+  speakers:
+  - Tom N
 - title: MailChimp
   date: '2015-05-08'
+  speakers:
+  - Ben Harris
 - title: How we work - Pivotal
   date: '2015-05-08'
+  speakers:
+  - Ross
 - title: Who's Hugo?
   date: '2015-05-08'
+  speakers:
+  - Dan
 - title: Mobile apps
   date: '2015-04-24'
+  speakers:
+  - Keith Brown
 - title: Beta demo
   date: '2015-04-24'
+  speakers:
+  - Phil
 - title: Content inventory analysis
   date: '2015-04-24'
+  speakers:
+  - Ross
 - title: IMI
   date: '2015-04-24'
+  speakers:
+  - Hanna
 - title: Microcopy
   date: '2015-04-24'
+  speakers:
+  - Iris
 - title: Beta demo
   date: '2015-04-10'
+  speakers:
+  - Ross
 - title: Vagrant
   date: '2015-04-10'
+  speakers:
+  - Tom N
 - title: Rails security
   date: '2015-04-10'
+  speakers:
+  - Kelv
 - title: Beta demo
   date: '2015-03-27'
+  speakers:
+  - Ross
 - title: CMS usage
   date: '2015-03-27'
+  speakers:
+  - Phil
 - title: Moving parts
   date: '2015-03-27'
+  speakers:
+  - Tom N
 - title: Events booking discovery
   date: '2015-03-27'
+  speakers:
+  - Liam
 - title: Eventbrite AP
   date: '2015-03-27'
+  speakers:
+  - Kelv
 - title: Social media audit
   date: '2015-03-13'
+  speakers:
+  - Miao
 - title: Beta update
   date: '2015-03-13'
+  speakers:
+  - Ross
 - title: Business discovery findings
   date: '2015-03-13'
+  speakers:
+  - Hanna
 - title: Agile content
   date: '2015-03-13'
+  speakers:
+  - Rich
 - title: Anatomy of a responsive website
   date: '2015-03-13'
+  speakers:
+  - Dan
 - title: Pushing code live
   date: '2015-02-27'
+  speakers:
+  - Kelv
 - title: Content Types
   date: '2015-02-27'
+  speakers:
+  - Charlotte
 - title: User testing the Alpha
   date: '2015-02-27'
+  speakers:
+  - Ross
 - title: Prospectus Alpha model
   date: '2015-02-27'
+  speakers:
+  - Tom T
 - title: Why are you looking at that? User behaviour.
   date: '2015-02-27'
+  speakers:
+  - Justin
 - title: Content inventory
   date: '2015-02-13'
+  speakers:
+  - Charlotte, Tom N
 - title: Webinars
   date: '2015-02-13'
+  speakers:
+  - Matt
 - title: Printing the prospectus
   date: '2015-02-13'
+  speakers:
+  - Maree
 - title: The International Section
   date: '2015-02-13'
+  speakers:
+  - Miao
 - title: Git on up
   date: '2015-02-13'
+  speakers:
+  - Dan
 - title: Alpha CMS infrastructure
   date: '2015-01-30'
+  speakers:
+  - Tom N
 - title: How to code - variables
   date: '2015-01-30'
+  speakers:
+  - Kelv
 - title: CRM - Benefits for Bath
   date: '2015-01-30'
+  speakers:
+  - Graham
 - title: MOOC Big data
   date: '2015-01-30'
+  speakers:
+  - Marie
 - title: Break Conference
   date: '2015-01-30'
+  speakers:
+  - Liam
 - title: Transport discovery sprint
   date: '2015-01-16'
+  speakers:
+  - Paul
 - title: Going Live
   date: '2015-01-16'
+  speakers:
+  - Tom N
 - title: CRM - Maximising the impact
   date: '2015-01-16'
+  speakers:
+  - Graham
 - title: Pattern Primer
   date: '2015-01-16'
+  speakers:
+  - Liam
 - title: All the small things
   date: '2015-01-16'
+  speakers:
+  - Dan
