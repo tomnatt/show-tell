@@ -13,4 +13,4 @@ rake db:reset
 rails s
 ```
 
-Seed data will be loaded on start-up.
+Seed data will be automatically loaded on start-up.
