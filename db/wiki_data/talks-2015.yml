@@ -1,19 +1,51 @@
 ---
 - title: Beta demo
-  date: '2015-12-18'
-- title: Beta demo
+  date: '2015-12-04'
+- title: Microservices
+  date: '2015-12-04'
+- title: desk.com
+  date: '2015-12-04'
+- title: The prospectus
   date: '2015-12-04'
 - title: Beta demo
   date: '2015-11-20'
+- title: Transition update
+  date: '2015-11-20'
+- title: Password security
+  date: '2015-11-20'
+- title: Data migration in Rails
+  date: '2015-11-20'
+- title: Worldwide
+  date: '2015-11-20'
 - title: Beta demo
+  date: '2015-11-06'
+- title: User testing the prospectus
+  date: '2015-11-06'
+- title: Planning content by mapping user journeys
+  date: '2015-11-06'
+- title: Dude, where's my file?
+  date: '2015-11-06'
+- title: Flex in flux
   date: '2015-11-06'
 - title: Beta demo
   date: '2015-10-23'
+- title: ReactJS
+  date: '2015-10-23'
+- title: Bamboo and the upgrade
+  date: '2015-10-23'
+- title: Research strategy
+  date: '2015-10-23'
+- title: Covert accessibility
+  date: '2015-10-23'
 - title: Beta demo
   date: '2015-10-09'
-- title: Reflections from IWMW
-  date: '2015-10-09'
 - title: Changes to personfinder
+  date: '2015-10-09'
+- title: Usage of navigation on Staff and Students page
+  date: '2015-10-09'
+- title: Smart punctuation in the CMS editor
+  date: '2015-10-09'
+- title: Visit to Harvard
   date: '2015-10-09'
 - title: Beta demo
   date: '2015-09-25'
@@ -21,9 +53,9 @@
   date: '2015-09-25'
 - title: Learning how to GA
   date: '2015-09-25'
-- title: The mighty hyphen
-  date: '2015-09-25'
 - title: More Regular Expressions
+  date: '2015-09-25'
+- title: The mighty hyphen
   date: '2015-09-25'
 - title: Beta demo
   date: '2015-09-11'

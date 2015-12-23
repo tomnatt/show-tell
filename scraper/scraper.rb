@@ -28,20 +28,21 @@ def create_talk_yaml(target_url, output_filename)
 
       output << {
         'title' => talk_name,
-        'date' => date.strftime("%Y-%m-%d")
+        'date' => date.strftime('%Y-%m-%d')
       }
     end
   end
 
   output_file = File.join(Dir.pwd, 'db/wiki_data', output_filename)
   # disable line auto-wrapping in yaml output
-  File.open(output_file, 'w') { |f| f.write(output.to_yaml({:line_width => -1})) }
+  File.open(output_file, 'w') { |f| f.write(output.to_yaml(line_width: -1)) }
 end
 
 show_tell_pages = [
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2013', 'talks-2013.yml'],
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2014', 'talks-2014.yml'],
-                    ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda', 'talks-2015.yml'],
+                    ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2015', 'talks-2015.yml'],
+                    # ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda', 'talks-2016.yml']
                   ]
 
 show_tell_pages.each do |year|
