@@ -1,0 +1,47 @@
+liam:
+  name: Liam
+  team: Digital
+  current: true
+  external: false
+
+dan:
+  name: Dan
+  team: Digital
+  current: true
+  external: false
+
+tom_n:
+  name: Tom N
+  team: Digital
+  current: true
+  external: false
+
+tom_t:
+  name: Tom T
+  team: Digital
+  current: true
+  external: false
+
+chris:
+  name: Chris
+  team: Digital
+  current: true
+  external: false
+
+miao:
+  name: Miao
+  team: Digital
+  current: true
+  external: false
+
+kelv:
+  name: Kelv
+  team: Digital
+  current: true
+  external: false
+
+phil:
+  name: Phil
+  team: Digital
+  current: true
+  external: false

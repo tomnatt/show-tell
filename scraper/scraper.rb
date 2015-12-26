@@ -46,6 +46,10 @@ show_tell_pages = [
                     # ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda', 'talks-2016.yml']
                   ]
 
+show_tell_speakers = {
+                      'Liam'
+                     }
+
 show_tell_pages.each do |year|
   puts "#{year[1]}"
   create_talk_yaml(year[0], year[1])
