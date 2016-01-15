@@ -19,6 +19,9 @@ def create_talk_yaml(target_url, output_filename)
     # Turns the date string into datetime
     date = DateTime.parse(date_str)
 
+    # Skip on if this is a talk from The Future
+    next if date > DateTime.now
+
     # Gets the contents of each following list item and spits them out
     list = header.next_element.children
     list.each do |item|
@@ -35,7 +38,7 @@ def create_talk_yaml(target_url, output_filename)
   end
 
   output_file = File.join(Dir.pwd, 'db/wiki_data', output_filename)
-  # disable line auto-wrapping in yaml output
+  # Disable line auto-wrapping in yaml output
   File.open(output_file, 'w') { |f| f.write(output.to_yaml(line_width: -1)) }
 end
 
@@ -43,12 +46,12 @@ show_tell_pages = [
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2013', 'talks-2013.yml'],
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2014', 'talks-2014.yml'],
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2015', 'talks-2015.yml'],
-                    # ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda', 'talks-2016.yml']
+                    ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda', 'talks-2016.yml']
                   ]
 
-show_tell_speakers = {
-                      'Liam'
-                     }
+# show_tell_speakers = {
+#                       'Liam'
+#                      }
 
 show_tell_pages.each do |year|
   puts "#{year[1]}"

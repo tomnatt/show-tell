@@ -1,0 +1,21 @@
+---
+- title: Beta update
+  date: '2016-01-15'
+  speakers:
+  - Rich
+- title: CMS authorisation
+  date: '2016-01-15'
+  speakers:
+  - Iris
+- title: FormSite
+  date: '2016-01-15'
+  speakers:
+  - Matt
+- title: User testing
+  date: '2016-01-15'
+  speakers:
+  - Liam
+- title: 'UI testing benchmarks - Part 1: Discovery'
+  date: '2016-01-15'
+  speakers:
+  - Dan
