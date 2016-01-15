@@ -37,7 +37,7 @@ def create_talk_yaml(target_url, output_filename)
     end
   end
 
-  output_file = File.join(Dir.pwd, 'db/wiki_data', output_filename)
+  output_file = File.join(Dir.pwd, 'db', 'raw_data', 'wiki', output_filename)
   # Disable line auto-wrapping in yaml output
   File.open(output_file, 'w') { |f| f.write(output.to_yaml(line_width: -1)) }
 end
