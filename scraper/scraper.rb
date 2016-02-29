@@ -27,13 +27,14 @@ def create_talk_yaml(target_url, output_filename)
     list.each do |item|
       talk_details = item.content.chomp.split('(')
       talk_name = talk_details[0].gsub(/[[:space:]]+\z/, '')
-      speaker_names = talk_details[1].sub(/\)/, '').split(', ')
+      speaker_names = talk_details[1].sub(/\).*/, '').split(', ').map{ |s| s.downcase.gsub(/ /, '_') }
 
       output << {
         'title' => talk_name,
         'date' => date.strftime('%Y-%m-%d'),
         'speakers' => speaker_names
       }
+
     end
   end
 
@@ -48,10 +49,6 @@ show_tell_pages = [
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2015', 'talks-2015.yml'],
                     ['https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda', 'talks-2016.yml']
                   ]
-
-# show_tell_speakers = {
-#                       'Liam'
-#                      }
 
 show_tell_pages.each do |year|
   puts "#{year[1]}"

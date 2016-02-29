@@ -1,47 +1,119 @@
 liam:
   name: Liam
-  team: Digital
+  team: Dev
   current: true
   external: false
 
 dan:
   name: Dan
-  team: Digital
+  team: Dev
   current: true
   external: false
 
 tom_n:
   name: Tom N
-  team: Digital
+  team: Dev
   current: true
   external: false
 
 tom_t:
   name: Tom T
-  team: Digital
+  team: Dev
   current: true
   external: false
 
 chris:
   name: Chris
-  team: Digital
+  team: Dev
   current: true
   external: false
 
 miao:
   name: Miao
-  team: Digital
+  team: Content
   current: true
   external: false
 
 kelv:
   name: Kelv
-  team: Digital
+  team: Dev
   current: true
   external: false
 
 phil:
   name: Phil
-  team: Digital
+  team: Dev
   current: true
   external: false
+
+rich:
+  name: Rich
+  team: Content
+  current: true
+  external: false
+
+iris:
+  name: Iris
+  team: Content
+  current: true
+  external: false
+
+hanna:
+  name: Hanna
+  team: Content
+  current: true
+  external: false
+
+charlotte:
+  name: Charlotte
+  team: Content
+  current: true
+  external: false
+
+john:
+  name: John
+  team: Content
+  current: true
+  external: false
+
+rhian:
+  name: Rhian
+  team: Content
+  current: true
+  external: false
+
+paul:
+  name: Paul
+  team: Content
+  current: true
+  external: false
+
+justin:
+  name: Justin
+  team: Content
+  current: true
+  external: false
+
+lara:
+  name: Lara
+  team: Content
+  current: false
+  external: false
+
+ross:
+  name: Ross
+  team: Management
+  current: false
+  external: false
+
+miles:
+  name: Miles
+  team: Content
+  current: false
+  external: false
+
+unknown:
+  name: Unknown person
+  team: unknown
+  current: true
+  external: true
