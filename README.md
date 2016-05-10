@@ -20,3 +20,10 @@ Seed data will be automatically loaded on start-up.
 * How many talks by a person?
 * Talks in a year?
 * Talks by a person (by year)?
+
+## Todo
+
+* scraper runs via controller, resets talks db table
+* users seeded properly
+* move to postgres
+* version upgrades
