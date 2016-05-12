@@ -23,7 +23,11 @@ Seed data will be automatically loaded on start-up.
 
 ## Todo
 
-* scraper runs via controller, resets talks db table
-* users seeded properly
+* ~~scraper runs via controller~~
+* resets talks db table
+* connects users to talks
+* ~~users seeded properly~~
 * move to postgres
-* version upgrades
+* security on admin stuff
+* ~~version upgrades~~
+* replicate wiki listing pages as output
