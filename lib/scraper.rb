@@ -6,7 +6,7 @@ module Scraper
       'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2013',
       'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2014',
       'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2015',
-      'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda',
+      'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda'
     ]
 
     show_tell_pages.each do |page|
@@ -36,11 +36,19 @@ module Scraper
       list.each do |item|
         talk_details = item.content.chomp.split('(')
         talk_name = talk_details[0].gsub(/[[:space:]]+\z/, '')
-        # speaker_names = talk_details[1].sub(/\).*/, '').split(', ').map { |s| s.downcase.tr(' ', '_') }
 
+        # Find list of speakers and convert to corresponding objects
+        speaker_names = talk_details[1].sub(/\).*/, '').split(', ').map { |s| s.downcase.tr(' ', '_') }
+        speakers = []
+        speaker_names.each do |name|
+          speakers << Speaker.find_by_name_or_unknown(name)
+        end
+
+        # Create the Talk object
         talk = Talk.new
         talk.title = talk_name
         talk.date = date
+        talk.speakers = speakers
         talk.save!
       end
     end

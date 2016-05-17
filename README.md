@@ -24,7 +24,7 @@ Seed data will be automatically loaded on start-up.
 ## Todo
 
 * ~~scraper runs via controller~~
-* resets talks db table
+* ~~resets talks db table~~
 * connects users to talks
 * ~~users seeded properly~~
 * move to postgres
