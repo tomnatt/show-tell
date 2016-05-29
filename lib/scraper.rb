@@ -38,7 +38,7 @@ module Scraper
         talk_name = talk_details[0].gsub(/[[:space:]]+\z/, '')
 
         # Find list of speakers and convert to corresponding objects
-        speaker_names = talk_details[1].sub(/\).*/, '').split(', ').map { |s| s.downcase.tr(' ', '_') }
+        speaker_names = talk_details[1].sub(/\).*/, '').split(', ')
         speakers = []
         speaker_names.each do |name|
           speakers << Speaker.find_by_name_or_unknown(name)

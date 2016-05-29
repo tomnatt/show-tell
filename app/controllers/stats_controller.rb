@@ -1,6 +1,6 @@
 class StatsController < ApplicationController
   def speakers_count
-    @speakers = Speaker.order(name: :asc)
+    @speakers = Speaker.all.sort_by { |s| s.talks.count }.reverse
   end
 
   def speakers
