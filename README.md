@@ -25,8 +25,9 @@ Seed data will be automatically loaded on start-up.
 
 * ~~scraper runs via controller~~
 * ~~resets talks db table~~
-* connects users to talks
+* ~~connects users to talks~~
 * ~~users seeded properly~~
+* complete speaker list
 * move to postgres
 * security on admin stuff
 * ~~version upgrades~~
