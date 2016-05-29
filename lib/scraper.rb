@@ -26,10 +26,10 @@ module Scraper
       date_str = h.sub(/\AAgenda\ for\ /, '').sub(/\ *\([a-zA-Z0-9 ]*\)\z/, '').chomp
 
       # Turns the date string into datetime
-      date = DateTime.parse(date_str)
+      date = DateTime.parse(date_str).in_time_zone
 
       # Skip on if this is a talk from The Future
-      next if date > DateTime.now
+      next if date > DateTime.current
 
       # Gets the contents of each following list item and spits them out
       list = header.next_element.children
