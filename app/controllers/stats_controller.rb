@@ -1,12 +1,16 @@
 class StatsController < ApplicationController
+  def speakers_count
+    @speakers = Speaker.order(name: :asc)
+  end
+
   def speakers
     speakers_data = Speaker.all
     # sort by name
-    #speakers_data.sort! { |a,b| a.name.downcase <=> b.name.downcase }
+    # speakers_data.sort! { |a,b| a.name.downcase <=> b.name.downcase }
     speakers_data.order!(:name)
 
-    @speakers = Array.new
-    @speakers_count = Array.new
+    @speakers = []
+    @speakers_count = []
 
     speakers_data.each do |s|
       @speakers << s.name
