@@ -3,6 +3,7 @@ class Speaker < ActiveRecord::Base
 
   def self.find_by_name_or_unknown(name)
     speaker = Speaker.find_by(name: name)
+    logger.info { "Name: #{name}" } if speaker.blank?
     return Speaker.find_by(name: 'Unknown person') if speaker.blank?
     speaker
   end

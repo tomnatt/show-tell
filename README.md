@@ -8,7 +8,6 @@ Uses [RGraph](http://www.rgraph.net/)
 ## Starting it up
 
 ```
-ruby scraper/scraper.rb
 rake db:reset
 rails s
 ```
