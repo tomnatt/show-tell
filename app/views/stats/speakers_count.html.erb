@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Speakers and the number of talks they have given</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-6 columns">
+    <table>
+      <thead>
+        <tr>
+          <th>Speaker</th>
+          <th>Talks</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @speakers.each do |speaker| %>
+        <tr>
+          <td><%= speaker.name %></td>
+          <td><%= speaker.talks.count %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

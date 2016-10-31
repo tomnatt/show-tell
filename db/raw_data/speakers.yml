@@ -1,0 +1,263 @@
+-
+  name: Liam
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: Dan
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: Tom N
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: Tom T
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: Chris
+  team: BUCS
+  current: true
+  external: true
+
+-
+  name: Sean
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: David
+  team: Dev
+  current: false
+  external: false
+
+-
+  name: Miao
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Kelv
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: Phil
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: Rich
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Iris
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Hanna
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Charlotte
+  team: Content
+  current: true
+  external: false
+
+-
+  name: John
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Rhian
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Paul
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Justin
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Lara
+  team: Content
+  current: false
+  external: false
+
+-
+  name: Ross
+  team: Management
+  current: false
+  external: false
+
+-
+  name: Miles
+  team: Content
+  current: false
+  external: false
+
+-
+  name: Roger Peabody
+  team: BUCS
+  current: false
+  external: true
+
+-
+  name: John Beaver
+  team: BUCS
+  current: true
+  external: true
+
+-
+  name: Steve Wyatt
+  team: BUCS
+  current: true
+  external: true
+
+-
+  name: Keith Brown
+  team: Psychology
+  current: true
+  external: true
+
+-
+  name: Jessica Otterwell
+  team: BUCS
+  current: true
+  external: true
+
+-
+  name: Matt Dales
+  team: BUCS
+  current: true
+  external: true
+
+-
+  name: Matt
+  team: HSS
+  current: true
+  external: true
+
+-
+  name: Hugh
+  team: HSS
+  current: true
+  external: true
+
+-
+  name: Takashi
+  team: Marcomms
+  current: true
+  external: true
+
+-
+  name: Sophie M
+  team: Marcomms
+  current: true
+  external: true
+
+-
+  name: Graham
+  team: Marcomms
+  current: true
+  external: true
+
+-
+  name: Andy D
+  team: Marcomms
+  current: true
+  external: true
+
+-
+  name: Katrina
+  team: Marcomms
+  current: true
+  external: true
+
+-
+  name: Maree
+  team: Marcomms
+  current: false
+  external: true
+
+-
+  name: Joey
+  team: School of Management
+  current: true
+  external: true
+
+-
+  name: Rubina
+  team: Chemistry
+  current: true
+  external: true
+
+-
+  name: Ben Harris
+  team: Marcomms
+  current: true
+  external: true
+
+-
+  name: Will Marsh
+  team: Marcomms
+  current: false
+  external: true
+
+-
+  name: Nitin
+  team: E-Learning
+  current: false
+  external: true
+
+-
+  name: Sotiris
+  team: E-Learning
+  current: false
+  external: true
+
+-
+  name: Marie
+  team: Centre for Learning
+  current: true
+  external: true
+
+-
+  name: Martin Cornish
+  team: Alumni
+  current: true
+  external: true
+
+-
+  name: Unknown person
+  team: unknown
+  current: true
+  external: true

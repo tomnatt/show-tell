@@ -1,0 +1,83 @@
+---
+- title: Beta update
+  date: '2016-02-26'
+  speakers:
+  - phil
+- title: Selling complex products
+  date: '2016-02-26'
+  speakers:
+  - tom_n
+- title: 'CRM: the live phase'
+  date: '2016-02-26'
+  speakers:
+  - graham
+- title: Preparation for go live
+  date: '2016-02-26'
+  speakers:
+  - justin
+  - iris
+- title: Running a Code Club
+  date: '2016-02-26'
+  speakers:
+  - kelv
+- title: Beta update
+  date: '2016-02-12'
+  speakers:
+  - rich
+- title: Rapid prototyping
+  date: '2016-02-12'
+  speakers:
+  - tom_n
+- title: Worldwide prototype
+  date: '2016-02-12'
+  speakers:
+  - miao
+- title: React in practice
+  date: '2016-02-12'
+  speakers:
+  - tom_n
+- title: 'UI testing benchmarks - Part 3: Doing'
+  date: '2016-02-12'
+  speakers:
+  - dan
+- title: Beta update
+  date: '2016-01-29'
+  speakers:
+  - phil
+- title: Person Profile Research
+  date: '2016-01-29'
+  speakers:
+  - rhian
+  - justin
+- title: Event Tech Live
+  date: '2016-01-29'
+  speakers:
+  - rubina
+- title: Archive it!
+  date: '2016-01-29'
+  speakers:
+  - phil
+- title: 'UI testing benchmarks - Part 2: Testing'
+  date: '2016-01-29'
+  speakers:
+  - dan
+- title: Beta update
+  date: '2016-01-15'
+  speakers:
+  - rich
+- title: CMS authorisation
+  date: '2016-01-15'
+  speakers:
+  - iris
+- title: FormSite
+  date: '2016-01-15'
+  speakers:
+  - matt
+- title: User testing
+  date: '2016-01-15'
+  speakers:
+  - liam
+- title: 'UI testing benchmarks - Part 1: Discovery'
+  date: '2016-01-15'
+  speakers:
+  - dan

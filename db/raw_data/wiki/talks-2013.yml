@@ -1,19 +1,41 @@
 ---
 - title: Videos and student profiles in the UG prospectus
   date: '2013-12-06'
+  speakers:
+  - tom_n
+  - liam
 - title: User testing to a time budget
   date: '2013-12-06'
+  speakers:
+  - dan
+  - paul
 - title: Device lab
   date: '2013-12-06'
+  speakers:
+  - phil
 - title: Drawing with Numbers - how can we visualise data?
   date: '2013-12-06'
+  speakers:
+  - tom_n
 - title: Know your site stats
   date: '2013-11-22'
+  speakers:
+  - ross
 - title: New support form
   date: '2013-11-22'
+  speakers:
+  - chris
 - title: SAMIS visual overhaul
   date: '2013-11-22'
+  speakers:
+  - phil
+  - roger_peabody
 - title: Principle number 5 - how the infrastructure has been developed to aid efficient development
   date: '2013-11-22'
+  speakers:
+  - tom_n
 - title: v3 template in Foundation
   date: '2013-11-22'
+  speakers:
+  - kelv
+  - tom_t
