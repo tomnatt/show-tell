@@ -1,6 +1,6 @@
 <div class="row">
   <div class="large-12 columns">
-    <h1>Speakers and the number of talks they have given</h1>
+    <h1>Speakers and the number of talks gave in <%= @year %></h1>
   </div>
 </div>
 
@@ -8,7 +8,7 @@
 
 <div class="row">
   <div class="large-6 columns">
-    <p><%= @total_talks %> talks across all years.</p>
+    <p><%= @total_talks %> talks in <%= @year %>.</p>
     <table>
       <thead>
         <tr>
@@ -19,8 +19,8 @@
       <tbody>
       <% @speakers.each do |speaker| %>
         <tr>
-          <td><%= speaker.name %></td>
-          <td><%= speaker.talks.count %></td>
+          <td><%= speaker[:name] %></td>
+          <td><%= speaker[:talks].count %></td>
         </tr>
       <% end %>
       </tbody>

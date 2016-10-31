@@ -12,7 +12,9 @@ rake db:reset
 rails s
 ```
 
-Seed data will be automatically loaded on start-up.
+Speaker seed data will be automatically loaded on start-up.
+
+Then hit http://localhost:3000/admin/talks/scrape to scrape the wiki data.
 
 ## Data views
 
@@ -26,8 +28,8 @@ Seed data will be automatically loaded on start-up.
 * ~~resets talks db table~~
 * ~~connects users to talks~~
 * ~~users seeded properly~~
-* complete speaker list
+* ~~complete speaker list~~
+* ~~version upgrades~~
 * move to postgres
 * security on admin stuff
-* ~~version upgrades~~
 * replicate wiki listing pages as output

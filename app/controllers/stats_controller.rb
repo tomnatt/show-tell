@@ -1,6 +1,23 @@
 class StatsController < ApplicationController
   def speakers_count
     @speakers = Speaker.all.sort_by { |s| s.talks.count }.reverse
+    @total_talks = Talk.all.count
+  end
+
+  def by_year
+    @year = year_params['year']
+    redirect_to root_path unless @year =~ /\d{4}/
+
+    @speakers = []
+    Speaker.all_by_year(@year).each do |speaker|
+      @speakers << {
+        name: speaker.name,
+        talks: speaker.talks.by_year(@year)
+      }
+    end
+
+    @speakers = @speakers.sort_by { |s| s[:talks].count }.reverse
+    @total_talks = Talk.by_year(@year).count
   end
 
   def speakers
@@ -16,5 +33,9 @@ class StatsController < ApplicationController
       @speakers << s.name
       @speakers_count << s.talks
     end
+  end
+
+  def year_params
+    params.permit(:year)
   end
 end
