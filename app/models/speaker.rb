@@ -7,4 +7,11 @@ class Speaker < ActiveRecord::Base
     return Speaker.find_by(name: 'Unknown person') if speaker.blank?
     speaker
   end
+
+  def self.all_by_year(year)
+    # can use "extract" in where if we move away from sqlite
+    Speaker.joins(:talks)
+           .where("cast(strftime('%Y', talks.date) as int) = ?", year)
+           .distinct
+  end
 end
