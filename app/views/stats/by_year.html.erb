@@ -4,16 +4,7 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="large-6 columns">
-    <ul class="inline-list">
-      <li><%= link_to '2016', by_year_path(2016) %></li>
-      <li><%= link_to '2015', by_year_path(2015) %></li>
-      <li><%= link_to '2014', by_year_path(2014) %></li>
-      <li><%= link_to '2013', by_year_path(2013) %></li>
-    </ul>
-  </div>
-</div>
+<%= render partial: 'shared/year_menu' %>
 
 <div class="row">
   <div class="large-6 columns">
