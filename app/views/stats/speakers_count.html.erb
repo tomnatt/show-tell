@@ -19,7 +19,7 @@
       <tbody>
       <% @speakers.each do |speaker| %>
         <tr>
-          <td><%= speaker.name %></td>
+          <td><%= link_to speaker.name, by_speaker_path(speaker) %></td>
           <td><%= speaker.talks.count %></td>
         </tr>
       <% end %>

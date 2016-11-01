@@ -20,6 +20,16 @@ class StatsController < ApplicationController
     @total_talks = Talk.by_year(@year).count
   end
 
+  def by_speaker
+    redirect_to root_path unless speaker_params[:speaker] =~ /\d+/
+    @speaker = Speaker.find(speaker_params[:speaker])
+    @talks = @speaker.talks.order(date: :desc)
+  end
+
+  def by_speaker_year
+
+  end
+
   def speakers
     speakers_data = Speaker.all
     # sort by name
@@ -33,6 +43,10 @@ class StatsController < ApplicationController
       @speakers << s.name
       @speakers_count << s.talks
     end
+  end
+
+  def speaker_params
+    params.permit(:speaker)
   end
 
   def year_params
