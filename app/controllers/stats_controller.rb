@@ -11,7 +11,7 @@ class StatsController < ApplicationController
     @speakers = []
     Speaker.all_by_year(@year).each do |speaker|
       @speakers << {
-        name: speaker.name,
+        speaker: speaker,
         talks: speaker.talks.by_year(@year)
       }
     end
@@ -27,7 +27,12 @@ class StatsController < ApplicationController
   end
 
   def by_speaker_year
+    @year = year_params['year']
+    redirect_to root_path unless @year =~ /\d{4}/
+    redirect_to root_path unless speaker_params[:speaker] =~ /\d+/
 
+    @speaker = Speaker.find(speaker_params[:speaker])
+    @talks = @speaker.talks.by_year(@year).order(date: :desc)
   end
 
   def speakers
