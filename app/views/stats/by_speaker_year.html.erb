@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Talks by <%= @speaker.name %> in <%= @year %></h1>
+  </div>
+</div>
+
+<%= render partial: 'shared/year_menu' %>
+
+<div class="row">
+  <div class="large-10 columns">
+    <p><%= @talks.count %> talks in <%= @year %>.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Talk</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @talks.each do |talk| %>
+        <tr>
+          <td><%= talk.title %></td>
+          <td><%= talk.date.strftime('%-d %b %y') %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
