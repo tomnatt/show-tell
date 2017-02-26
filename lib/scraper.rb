@@ -6,6 +6,7 @@ module Scraper
       'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2013',
       'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2014',
       'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2015',
+      'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+2016',
       'https://wiki.bath.ac.uk/display/webservices/Show+and+Tell+agenda'
     ]
 
@@ -30,6 +31,9 @@ module Scraper
 
       # Skip on if this is a talk from The Future
       next if date > DateTime.current
+
+      # Skip if next item isn't an unordered list
+      next if header.next_element.name != 'ul'
 
       # Gets the contents of each following list item and spits them out
       list = header.next_element.children
