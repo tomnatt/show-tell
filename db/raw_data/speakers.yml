@@ -1,7 +1,7 @@
 -
   name: Liam
   team: Dev
-  current: true
+  current: false
   external: false
 
 -
@@ -13,7 +13,7 @@
 -
   name: Tom N
   team: Dev
-  current: true
+  current: false
   external: false
 
 -
@@ -35,6 +35,18 @@
   external: false
 
 -
+  name: Tegan
+  team: Dev
+  current: true
+  external: false
+
+-
+  name: Justin K
+  team: Dev
+  current: true
+  external: false
+
+-
   name: David
   team: Dev
   current: false
@@ -49,13 +61,13 @@
 -
   name: Kelv
   team: Dev
-  current: true
+  current: false
   external: false
 
 -
   name: Phil
   team: Dev
-  current: true
+  current: false
   external: false
 
 -
@@ -66,7 +78,7 @@
 
 -
   name: Iris
-  team: Content
+  team: Dev
   current: true
   external: false
 
@@ -79,7 +91,7 @@
 -
   name: Charlotte
   team: Content
-  current: true
+  current: false
   external: false
 
 -
@@ -97,11 +109,29 @@
 -
   name: Paul
   team: Content
-  current: true
+  current: false
   external: false
 
 -
   name: Justin
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Justin O
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Tom D
+  team: Content
+  current: true
+  external: false
+
+-
+  name: Rod
   team: Content
   current: true
   external: false
@@ -210,6 +240,12 @@
 
 -
   name: Joey
+  team: School of Management
+  current: true
+  external: true
+
+-
+  name: Rayner
   team: School of Management
   current: true
   external: true
