@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.5'
 
-gem 'rails'
+gem 'rails', '~> 4.0'
 gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
