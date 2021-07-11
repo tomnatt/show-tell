@@ -9,7 +9,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
-gem 'sdoc',          group: :doc
+gem 'sdoc', '>= 1.0.0', group: :doc
 gem 'spring',        group: :development
 
 # added by us
