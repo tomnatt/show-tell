@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 ruby '2.3.5'
 
-gem 'rails', '~> 4.0'
+gem 'rails', '~> 5.2', '>= 5.2.8.1'
 gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc',          group: :doc
@@ -16,4 +16,4 @@ gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'formtastic'
 gem 'quiet_assets'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.6'
