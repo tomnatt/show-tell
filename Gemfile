@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.3.5'
 
-gem 'rails', '~> 4.0'
+gem 'rails', '~> 6.1', '>= 6.1.7.1'
 gem 'sqlite3'
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.8'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
