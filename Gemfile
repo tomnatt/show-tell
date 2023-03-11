@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.5'
 
-gem 'rails', '~> 4.0'
+gem 'rails', '~> 5.0', '>= 5.0.0'
 gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
@@ -16,4 +16,4 @@ gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'formtastic'
 gem 'quiet_assets'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.10.5'
