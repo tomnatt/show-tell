@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.3.5'
 
-gem 'rails', '~> 4.0'
+gem 'rails', '~> 7.0', '>= 7.0.0'
 gem 'sqlite3'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
@@ -16,4 +16,4 @@ gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'formtastic'
 gem 'quiet_assets'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.18.4'
